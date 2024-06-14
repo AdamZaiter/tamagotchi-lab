@@ -82,7 +82,15 @@ function playBtnClick() { // Created a function to handle the play button click.
     render(); // Render the updates made.
 }
 
+function feedBtnClick() { // Create a function, this function will handle the feed button.
+    state.hunger = 0; // similarly to the play button, we set the state.hunger to 0.
+    render(); // Render the new updates to the UI.
+}
 
+function sleepBtnClick() { //Create a function to handle the sleep button.
+    state.sleepiness = 0; // Following the same theme, setting the sleepiness state to 0.
+    render(); //Render to UI.
+}
 
 /*----------------------------- Event Listeners -----------------------------*/
 
