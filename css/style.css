@@ -58,16 +58,16 @@
     border-radius: 0.5rem;
     
     color: white;
-    background-color: #4597f8;
+    background-color: #4845f8;
     transition: background-color 2s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
   
   button:hover {
-    background-color: #3880d7;
+    background-color: #d7cf38;
   }
   
   button:active {
-    background-color: #2e6bb6;
+    background-color: #b62e2e;
   }
   
   /* images */

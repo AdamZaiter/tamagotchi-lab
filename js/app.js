@@ -41,7 +41,7 @@ function init() {
     resetBtnEl.classList.add('hidden'); // This will allow me to hide the reset button.
     gameMessageEl.classList.add('hidden'); // This will allow me to hide the game over message.
 
-    timer = setInterval(runGame, 2000); // Setting the interval so that the game runs every 2 seconds 
+    timer = setInterval(runGame, 1500); // Setting the interval so that the game runs every 2 seconds 
 
     render(); // Calling render to update to the UI.
 }
