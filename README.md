@@ -13,4 +13,19 @@ Source for the Tomatoe is "./assets/tomato.png"
     - Verify in browser using inspect feature.
 
 Game description
-    This is a simple game where your goal is to take care of a 'digital' creature. You take care of this creature by playing, feeding, and putting it to sleep. 
+    This is a simple game where your goal is to take care of a 'digital' creature. You take care of this creature by playing, feeding, and putting it to sleep. You need to keep each one of those values (Playing, feeding, and putting it to sleep) below 10. If 10 is reached then you lose the game. Reset to play again.
+
+Github link: https://github.com/AdamZaiter/tamagotchi-lab
+
+Instructions: 
+1. Clicking play reduces the boredom level.
+2. Clicking feed reduces the hunger level. 
+3. Clicking sleep reduces the sleepiness level. 
+4. The game will update every 2 seconds, adding to the boredom, hunger, and sleepiness. Randomly. 
+5. If any of the 3 levels reach 10, then the player loses.
+6. In order to play again, click "Play again" at the bottom and the game will reset.
+
+Tech used:
+- HTML
+- CSS (Flexbox)
+- JavaScript (Dom Manipulation)
