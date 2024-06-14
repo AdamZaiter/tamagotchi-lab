@@ -58,6 +58,20 @@ function updateStates() {
     state.sleepiness += Math.floor(Math.random() * 4); // Increment sleepiness by random number (between 0 and 3)
 }
 
+function render() { // Render function to update state to player 
+    boredomStatEl.textContent = state.boredom; // Updates the display of boredom
+    hungerStatEl.textContent = state.hunger; // Updates the display of hunger
+    sleepinessStatEl.textContent = state.sleepiness; // Updates the display of sleepiness 
+
+    // If statements for control flow
+    if (gameOver) {
+        clearInterval(timer); //Stops the game loop if the game is over (if gameOver is true)
+        gameMessageEl.classList.remove('hidden'); // This will show the game over message (remove hidden)
+        resetBtnEl.classList.remove('hidden'); // Shows the reset button (removes the hidden reset button)
+    }
+}
+
+
 /*----------------------------- Event Listeners -----------------------------*/
 
 
