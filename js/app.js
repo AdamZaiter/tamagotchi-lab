@@ -99,4 +99,4 @@ feedBtnEl.addEventListener('click', feedBtnClick); // Attaching the event listen
 sleepBtnEl.addEventListener('click', sleepBtnClick); //Attaching event listener for the sleep button.
 resetBtnEl.addEventListener('click', init); // Event listener for the reset button.
 
-init(); //Initializes the game when the page loads.
+init(); //Initializes the game when the page loads
