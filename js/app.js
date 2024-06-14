@@ -46,6 +46,13 @@ function init() {
     render(); // Calling render to update to the UI.
 }
 
+function runGame() {
+    updateStates(); // Updates the state of the game.
+    checkGameOver(); // Checks if the game is over.
+    render(); // Render updated state.
+}
+
+
 
 /*----------------------------- Event Listeners -----------------------------*/
 
