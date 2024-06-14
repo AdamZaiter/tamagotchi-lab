@@ -30,7 +30,21 @@ const resetBtnEl = document.getElementById('restart');
 // game over message and reset buttons
 
 /*-------------------------------- Functions --------------------------------*/
+// initalize the game upon loading and function called to render game state
+function init() {
+    console.log('Game initialized'); // logged for debugging
+    gameOver = false; // setting game over to false
+    state.boredom = 0; // This will reset boredom
+    state.hunger = 0; // this will reset hunger
+    state.sleepiness = 0; // this will reset sleepiness
 
+    resetBtnEl.classList.add('hidden'); // This will allow me to hide the reset button.
+    gameMessageEl.classList.add('hidden'); // This will allow me to hide the game over message.
+
+    timer = setInterval(runGame, 2000); // Setting the interval so that the game runs every 2 seconds 
+
+    render(); // Calling render to update to the UI.
+}
 
 
 /*----------------------------- Event Listeners -----------------------------*/
