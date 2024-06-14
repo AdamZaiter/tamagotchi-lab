@@ -54,7 +54,7 @@ function runGame() {
 
 function updateStates() {
     state.boredom += Math.floor(Math.random() * 4);  // Increment boredom by random number (between 0 and 3)
-    state.hunger += Math.flood(Math.random() * 4); // Increment hunger by random number (between 0 and 3)
+    state.hunger += Math.floor(Math.random() * 4); // Increment hunger by random number (between 0 and 3)
     state.sleepiness += Math.floor(Math.random() * 4); // Increment sleepiness by random number (between 0 and 3)
 }
 
@@ -94,4 +94,9 @@ function sleepBtnClick() { //Create a function to handle the sleep button.
 
 /*----------------------------- Event Listeners -----------------------------*/
 
+playBtnEl.addEventListener('click', playBtnClick); // Attaching the event listener for the play button.
+feedBtnEl.addEventListener('click', feedBtnClick); // Attaching the event listener for the feed button.'
+sleepBtnEl.addEventListener('click', sleepBtnClick); //Attaching event listener for the sleep button.
+resetBtnEl.addEventListener('click', init); // Event listener for the reset button.
 
+init(); //Initializes the game when the page loads.
