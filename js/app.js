@@ -52,7 +52,11 @@ function runGame() {
     render(); // Render updated state.
 }
 
-
+function updateStates() {
+    state.boredom += Math.floor(Math.random() * 4);  // Increment boredom by random number (between 0 and 3)
+    state.hunger += Math.flood(Math.random() * 4); // Increment hunger by random number (between 0 and 3)
+    state.sleepiness += Math.floor(Math.random() * 4); // Increment sleepiness by random number (between 0 and 3)
+}
 
 /*----------------------------- Event Listeners -----------------------------*/
 
