@@ -71,6 +71,18 @@ function render() { // Render function to update state to player
     }
 }
 
+function checkGameOver() {  // This function will check if the game is over.
+    if (state.boredom >= 10 || state.hunger >= 10 || state.sleepiness >= 10) { // This 'if statement' will check if any of the properties are valued at more than 10.
+        gameOver = true; // If the above pseudocode is true, gameOver will be assigned to true. 
+    }
+}
+
+function playBtnClick() { // Created a function to handle the play button click.
+    state.boredom = 0; // set the state.boredom to 0. 
+    render(); // Render the updates made.
+}
+
+
 
 /*----------------------------- Event Listeners -----------------------------*/
 
