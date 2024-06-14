@@ -14,8 +14,16 @@ let timer; // Timer variable
 let gameOver; // gameOver variable to represent if player lost the game.
 
 /*------------------------ Cached Element References ------------------------*/
+// Store cached element references
+const boredomStatEl = document.getElementById('boredom-stat');
+const hungerStatEl = document.getElementById('hunger-stat');
+const sleepinessStatEl = document.getElementById('sleepiness-stat');
+// 3 elements stored. Boredom, Hunger, and Sleepiness 
 
-
+const playBtnEl = document.getElementById('play');
+const feedBtnEl = document.getElementById('feed');
+const sleepBtnEl = document.getElementById('sleep');
+// 
 
 /*-------------------------------- Functions --------------------------------*/
 
