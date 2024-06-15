@@ -1,28 +1,14 @@
-Tamagotchi Game is the game of choice we are creating. 
-
-Screenshot of game:
-./assets/Tamagotchi-game-screenshot.png
+# Tamagotchi Game is the game of choice we are creating. 
 
 ![image](https://github.com/AdamZaiter/tamagotchi-lab/assets/161236340/5da677a3-9be1-4b32-8a5a-b89cbe95996f)
 
-Source for the Tomatoe is "./assets/tomato.png" 
-    ** in order to get that moved over I used the Terminal on my Mac and moved it **
-    - Downloaded the image.
-    - Saved to my downloads.
-    - Created Assets directory.
-        - Mkdir Assets
-    - Moved the image from my downloads folder to the assets directory. 
-        - mv ~/downloads/tomato.png ./assets/tomato.png
-    - Update the HTML file.
-        - Already included in the labs "included code"
-    - Verify in browser using inspect feature.
 
-Game description
+# Game description
     This is a simple game where your goal is to take care of a 'digital' creature. You take care of this creature by playing, feeding, and putting it to sleep. You need to keep each one of those values (Playing, feeding, and putting it to sleep) below 10. If 10 is reached then you lose the game. Reset to play again.
 
 Github link: https://github.com/AdamZaiter/tamagotchi-lab
 
-Instructions: 
+# Instructions: 
 1. Clicking play reduces the boredom level.
 2. Clicking feed reduces the hunger level. 
 3. Clicking sleep reduces the sleepiness level. 
@@ -30,18 +16,18 @@ Instructions:
 5. If any of the 3 levels reach 10, then the player loses.
 6. In order to play again, click "Play again" at the bottom and the game will reset.
 
-Future enhancements list:
+# Future enhancements list:
 - I can add sound effects for click interactions.
 - I can add different levels of difficulty.
 - I can add different creatures, each of which would require their own "needs".
 - Possibly add animations to the UI.
 
-Tech used:
+# Tech used:
 - HTML
 - CSS (Flexbox)
 - JavaScript (Dom Manipulation)
 
-Step by step instructions to complete project:
+# Step by step instructions to complete project:
 1. Set up the proejct
     - Navigate to Labs in directory.
     - Create file
@@ -73,7 +59,7 @@ Step by step instructions to complete project:
 6. LET THE WORLD SEE YOUR GAME! GO PUBLIC!
 
 
-Sources:
+# Sources:
 
 https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener (Event listeners)
 
@@ -83,5 +69,5 @@ https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById (get El
 
 https://www.basedash.com/blog/init-function-in-javascript-explained (function init()) 
 
-Author:
+# Author:
 Adam Zaiter
