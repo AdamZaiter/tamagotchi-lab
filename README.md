@@ -72,5 +72,16 @@ Step by step instructions to complete project:
     - Deploy to github. Make sure to commit to github often so that your files and changes are saved in the event you have trouble figuring out whats going on.
 6. LET THE WORLD SEE YOUR GAME! GO PUBLIC!
 
+
+Sources:
+
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener (Event listeners)
+
+https://developer.mozilla.org/en-US/docs/Web/API/Element/classList (Class lists)
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById (get Element By Id)
+
+https://www.basedash.com/blog/init-function-in-javascript-explained (function init()) 
+
 Author:
 Adam Zaiter
