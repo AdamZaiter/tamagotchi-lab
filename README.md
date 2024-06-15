@@ -2,7 +2,7 @@ Tamagotchi Game is the game of choice we are creating.
 
 Screenshot of game:
 ./assets/Tamagotchi-game-screenshot.png
-
+![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/gellokd/code/ga/labs/tamagotchi-lab/assets/Tamagotchi-game-screenshot.png?version%3D1718458554951)
 Source for the Tomatoe is "./assets/tomato.png" 
     ** in order to get that moved over I used the Terminal on my Mac and moved it **
     - Downloaded the image.
