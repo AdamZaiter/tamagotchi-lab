@@ -3,6 +3,8 @@ Tamagotchi Game is the game of choice we are creating.
 Screenshot of game:
 ./assets/Tamagotchi-game-screenshot.png
 
+![image](https://github.com/AdamZaiter/tamagotchi-lab/assets/161236340/5da677a3-9be1-4b32-8a5a-b89cbe95996f)
+
 Source for the Tomatoe is "./assets/tomato.png" 
     ** in order to get that moved over I used the Terminal on my Mac and moved it **
     - Downloaded the image.
