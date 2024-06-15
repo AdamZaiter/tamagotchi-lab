@@ -3,6 +3,8 @@ Tamagotchi Game is the game of choice we are creating.
 Screenshot of game:
 ./assets/Tamagotchi-game-screenshot.png
 
+![image](https://github.com/AdamZaiter/tamagotchi-lab/assets/161236340/5da677a3-9be1-4b32-8a5a-b89cbe95996f)
+
 Source for the Tomatoe is "./assets/tomato.png" 
     ** in order to get that moved over I used the Terminal on my Mac and moved it **
     - Downloaded the image.
@@ -69,6 +71,17 @@ Step by step instructions to complete project:
 5. Deploy the game
     - Deploy to github. Make sure to commit to github often so that your files and changes are saved in the event you have trouble figuring out whats going on.
 6. LET THE WORLD SEE YOUR GAME! GO PUBLIC!
+
+
+Sources:
+
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener (Event listeners)
+
+https://developer.mozilla.org/en-US/docs/Web/API/Element/classList (Class lists)
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById (get Element By Id)
+
+https://www.basedash.com/blog/init-function-in-javascript-explained (function init()) 
 
 Author:
 Adam Zaiter
